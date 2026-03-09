@@ -1,8 +1,17 @@
 {
   "info": {
-    "message": 
-      "The app-store.json and app-store.js files can be expanded to store some facts about the app e.g. the app's creators. You should also add your own store (equivalent to our playlist-store.json). See the assignment spec for more details.",
+    "appTitle": "Ezio's Legacy App",
+    "version": "1.0",
+    "location": "Waterford",
     "creators": [
+      {
+        "name": "Grettel Pascacio",
+        "role": "Web Developer"
+      },
+      {
+        "name": "Rosanne Birney",
+        "role": "Web Developer"
+      }
       
     ]
   }
