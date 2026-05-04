@@ -1,18 +1,17 @@
 {
   "info": {
-    "appTitle": "Ezio's Legacy App",
-    "version": "1.0",
-    "location": "Waterford",
+    "appTitle": "Videogame List",
+    "version": 0.2,
     "creators": [
       {
         "name": "Grettel Pascacio",
         "role": "Web Developer"
       },
       {
-        "name": "Rosanne Birney",
+        "name": "A.N. Other",
         "role": "Web Developer"
       }
-      
-    ]
-  }
+    ],
+    "location": "Waterford"
+  } 
 }

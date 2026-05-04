@@ -8,10 +8,11 @@ const start = {
     logger.info("Start page loading!");
     
     const viewData = {
-      title: "CA1 Starter App",
+      title: "Welcome to Ezio's Legacy App!",
       info: appStore.getAppInfo()
     };
     
+    //logger.debug(viewData);
     response.render('start', viewData);   
   },
 };
