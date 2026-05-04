@@ -1,20 +1,20 @@
-{{#if singlePlaylist.songs}}
+{{#if singleGame.games}}
 
   <table class="ui unstackable striped table">
     <thead>
       <tr>
-        <th>Song</th>
-        <th>Artist</th>
+        <th>Game</th>
+        <th>Developer</th>
       </tr>
     </thead>
     <tbody>
-      {{#each singlePlaylist.songs}}
+      {{#each singleGame.games}}
         <tr>
           <td>
             {{title}}
           </td>
           <td>
-            {{artist}}
+            {{developer}}
           </td>
         </tr>
       {{/each}}

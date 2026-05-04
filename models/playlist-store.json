@@ -1,51 +1,51 @@
 {
-  "playlistCollection": [
+  "gamesCollection": [
     {
       "id" : "01",
-      "title": "Beethoven Sonatas",
-      "songs": [
+      "title": "Altair's Story",
+      "games": [
         {
           "id" : "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
+          "title": "Assasin's Creed",
+          "developer": "Ubisoft"
         },
         {
           "id" : "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
+          "title": "Assassin's Creed: Bloodlines",
+          "developer": "Ubisoft"
         },
         {
           "id" : "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
+          "title": "Assassin's Creed: Altaïr's Chronicles",
+          "developer": "Ubisoft"
         }
       ]
     },
     {
       "id" : "02",
-      "title": "Beethoven Concertos",
-      "songs": [
+      "title": "Ezio's Story",
+      "games": [
         {
           "id" : "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
+          "title": "Assassin's Creed II",
+          "developer": "Ubisoft"
         },
         {
           "id" : "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
+          "title": "Assassin's Creed: Brotherhood",
+          "developer": "Ubisoft"
         },
         {
           "id" : "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
+          "title": "Assassin's Creed: Revelations",
+          "developer": "Ubisoft"
         }
       ]
     },
     {
       "id" : "03",
-      "title": "Beethoven Unfinished Symphonies",
-      "songs": []
+      "title": "Assasin's Creed New Age",
+      "games": []
     }
   ]
 }

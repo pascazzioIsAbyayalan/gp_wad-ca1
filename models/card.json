@@ -1,30 +1,30 @@
 {
   "employees" : [
        {
-        "name":"Stevie",
-        "fullname":"Stevie Feliciano",
-        "image":"/stevie.jpg",
-        "joined":2016,
+        "name":"Grettel",
+        "fullname":"Grettel Pascacio",
+        "image":"/grettel.jpg",
+        "joined":2022,
         "job":"Web Developer",
-        "city":"Boston",
+        "city":"Waterford",
 		"mates": 35
        },
        {
-        "name":"Helen",
-        "fullname":"Helen Hess",
-        "image":"/helen.jpg",
-        "joined":2013,
+        "name":"Valeria",
+        "fullname":"Valeria Duran",
+        "image":"/valeria.jpg",
+        "joined":2022,
         "job":"Art Director",
-        "city":"New York",
+        "city":"San Salvador",
 	    "mates": 22
        },
        {
-        "name":"Jenny",
-        "fullname":"Jenny Howe",
-        "image":"/jenny.jpg",
-        "joined":2014,
+        "name":"Jane",
+        "fullname":"Jane Doe",
+        "image":"/jane.jpg",
+        "joined":2025,
         "job":"UX Designer",
-        "city":"Manhatten",
+        "city":"Carlow",
 		"mates": 30
        }
       ]

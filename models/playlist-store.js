@@ -5,16 +5,16 @@ import JsonStore from './json-store.js';
 
 const playlistStore = {
 
-  store: new JsonStore('./models/playlist-store.json', { playlistCollection: [] }),
-  collection: 'playlistCollection',
-  array: 'songs',
+  store: new JsonStore('./models/playlist-store.json', { gamesCollection: [] }),
+  collection: 'gamesCollection',
+  array: 'games',
 
-  getAllPlaylists() {
+  getAllGames() {
     return this.store.findAll(this.collection);
   },
 
-  getPlaylist(id) {
-    return this.store.findOneBy(this.collection, (playlist => playlist.id === id));
+  getGames(id) {
+    return this.store.findOneBy(this.collection, (game => game.id === id));
 },
 
 };
