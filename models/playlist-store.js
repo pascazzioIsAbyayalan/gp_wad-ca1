@@ -17,6 +17,10 @@ const playlistStore = {
     return this.store.findOneBy(this.collection, (game => game.id === id));
 },
 
+addGame(id, game) {
+    this.store.addItem(this.collection, id, this.array, game);
+},
+
 };
 
 export default playlistStore;

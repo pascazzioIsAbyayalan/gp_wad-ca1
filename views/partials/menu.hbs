@@ -8,5 +8,9 @@
 </nav>
 
 <script>
- document.querySelector("#{{id}}").classList.add("active");
+  const activeId = "{{id}}";
+  if (activeId) {
+    const el = document.querySelector(`#${activeId}`);
+    if (el) el.classList.add("active");
+  }
 </script>

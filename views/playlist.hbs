@@ -1,8 +1,19 @@
 {{> menu}}
 
+{{#with singleGame}}
+
 <section class="ui center aligned middle aligned scrolling segment">
+
   <h2 class="ui header">
-     {{singleGame.title}}
+     {{title}}
   </h2>
-  {{> listsongs}}
+
+  {{> listgames}}
 </section>
+
+  <section class="ui center aligned middle aligned segment">
+
+    {{> addgames}}
+
+  </section>
+{{/with}}

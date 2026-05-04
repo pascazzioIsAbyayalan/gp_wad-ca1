@@ -15,7 +15,7 @@ router.get('/', start.createView);
 router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 router.get('/playlist/:id', playlist.createView);
-
+router.post('/playlist/:id/addgame', playlist.addGame);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found.'));
 
