@@ -2,7 +2,7 @@
 
 import logger from "../utils/logger.js";
 import playlistStore from '../models/playlist-store.js';
-
+import { v4 as uuidv4 } from 'uuid';
 
 const dashboard = {
   createView(request, response) {
@@ -17,6 +17,23 @@ const dashboard = {
     logger.debug(viewData.games);
 
     response.render('dashboard', viewData);
+  },
+
+  addPlaylist(request, response) {
+    const newPlayList = {
+      id: uuidv4(),
+      title: request.body.title,
+      games: [],
+    };
+    playlistStore.addPlaylist(newPlayList);
+    response.redirect('/dashboard');
+  },
+
+  deletePlaylist(request, response) {
+    const playlistId = request.params.id;
+    logger.debug(`Deleting Playlist ${playlistId}`);
+    playlistStore.removePlaylist(playlistId);
+    response.redirect('/dashboard');
   },
 };
 

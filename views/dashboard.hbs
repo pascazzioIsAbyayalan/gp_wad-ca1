@@ -1,35 +1,5 @@
 {{> menu id="dashboard"}}
 
-<section class="ui left aligned middle aligned segment">
-  
-  <h2>Ezio's Legacy App Dashboard</h2>
-  
-  {{#unless games}}
-    <h3 class="ui message">
-      Start adding your games!
-    </h3>
-  {{/unless}}
-
-  {{#each games}}
-    <section class="ui left aligned middle aligned segment">
-
-      <h3 class="ui header">
-        {{title}}
-      </h3>
-     
-        {{#if games}}
-         <p>Total games: {{games.length}}</p>
-        
-        {{else}}
-        <p>Empty playlist</p>
-        
-        {{/if}}
-        
-      <a href="/playlist/{{id}}">
-      <i class="open folder black outline icon"></i>  
-      </a>
-    </section>
-  {{/each}}
-
-</section>
+{{> listplaylists}}
+{{> addplaylist}}
    

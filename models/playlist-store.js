@@ -21,6 +21,19 @@ addGame(id, game) {
     this.store.addItem(this.collection, id, this.array, game);
 },
 
+addPlaylist(playlist) {
+  this.store.addCollection(this.collection, playlist);
+},
+
+removeGame(id, gameId) {
+    this.store.removeItem(this.collection, id, this.array, gameId);
+},
+
+removePlaylist(id) {
+    const playlist = this.store.findOneBy(this.collection, (p) => p.id === id);
+    this.store.removeCollection(this.collection, playlist);
+},
+
 };
 
 export default playlistStore;

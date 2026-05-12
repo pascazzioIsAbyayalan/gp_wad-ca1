@@ -27,6 +27,14 @@ const playlist = {
     playlistStore.addGame(gameId, newGame);
     response.redirect('/playlist/' + gameId);
 },
+
+deleteGame(request, response) {
+    const playlistId = request.params.id;
+    const gameId = request.params.gameid;
+    logger.debug(`Deleting Game  ${gameId} from Playlist ${playlistId}`);
+    playlistStore.removeGame(playlistId, gameId);
+    response.redirect('/playlist/' + playlistId);
+},
 };
 
 export default playlist;

@@ -1,42 +1,6 @@
 {
   "gamesCollection": [
     {
-      "id": "01",
-      "title": "Altair's Story",
-      "games": [
-        {
-          "id": "04",
-          "title": "Assasin's Creed",
-          "developer": "Ubisoft"
-        },
-        {
-          "id": "05",
-          "title": "Assassin's Creed: Bloodlines",
-          "developer": "Ubisoft"
-        },
-        {
-          "id": "06",
-          "title": "Assassin's Creed: Altaïr's Chronicles",
-          "developer": "Ubisoft"
-        },
-        {
-          "id": "17cead7a-bd3c-4281-b2a7-79764e83cd75",
-          "title": "AC 3",
-          "developer": "Ubisoft"
-        },
-        {
-          "id": "87c2a2f6-39a3-4cc3-95b1-8e72547b1c06",
-          "title": "AC 6",
-          "developer": "Ubisoft"
-        },
-        {
-          "id": "b0960c7a-a1a0-4972-ac7d-f8e2cd48353b",
-          "title": "AC 4",
-          "developer": "Ubisoft"
-        }
-      ]
-    },
-    {
       "id": "02",
       "title": "Ezio's Story",
       "games": [
@@ -60,6 +24,11 @@
     {
       "id": "03",
       "title": "Assasin's Creed New Age",
+      "games": []
+    },
+    {
+      "id": "63ab72c8-87e6-4c44-b024-86a99fff2065",
+      "title": "Altair's Story",
       "games": []
     }
   ]

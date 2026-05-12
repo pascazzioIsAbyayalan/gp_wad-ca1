@@ -16,6 +16,11 @@ router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 router.get('/playlist/:id', playlist.createView);
 router.post('/playlist/:id/addgame', playlist.addGame);
+router.post('/dashboard/addplaylist', dashboard.addPlaylist);
+
+router.get('/playlist/:id/deletegame/:gameid', playlist.deleteGame);
+/* Had to move things around due to name and function name */
+router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found.'));
 
