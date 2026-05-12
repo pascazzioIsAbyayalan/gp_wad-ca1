@@ -12,16 +12,25 @@
     <section class="ui left aligned middle aligned segment">
 
       <h3 class="ui header">
-        {{title}}
+        {{uppercase title}}
       </h3>
      
+      <p>
+        <i class="gamepad icon"></i>
         {{#if games}}
-         <p>Total games: {{games.length}}</p>
-        
+          Total games:
+          {{games.length}}
+
         {{else}}
-        <p>Empty playlist</p>
-        
+          Empty playlist!
         {{/if}}
+
+        {{#if date}}
+          <br>
+          <i class="calendar alternate outline icon"></i>
+          Created on <i>{{formatDate date}}</i>
+        {{/if}}
+      </p>
         
       <a href="/playlist/{{id}}">
       <i class="open folder black outline icon"></i>  

@@ -14,7 +14,20 @@ const port = 3000;
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false, }));
 
-const handlebars = create({extname: '.hbs'});
+const handlebars = create({
+	extname: '.hbs',
+	helpers: {
+		uppercase: (inputString) => {
+			return inputString.toUpperCase();
+		},
+		formatDate: (dateValue) => {
+			if (!dateValue) {
+				return "Unknown";
+			}
+			return new Date(dateValue).toLocaleString();
+		},
+	},
+});
 app.engine(".hbs", handlebars.engine);
 app.set("view engine", ".hbs");
 

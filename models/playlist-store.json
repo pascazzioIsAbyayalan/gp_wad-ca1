@@ -3,6 +3,7 @@
     {
       "id": "02",
       "title": "Ezio's Story",
+      "date": "2026-05-12T10:00:00.000Z",
       "games": [
         {
           "id": "07",
@@ -24,11 +25,13 @@
     {
       "id": "03",
       "title": "Assasin's Creed New Age",
+      "date": "2026-05-12T10:15:00.000Z",
       "games": []
     },
     {
       "id": "63ab72c8-87e6-4c44-b024-86a99fff2065",
       "title": "Altair's Story",
+      "date": "2026-05-12T10:30:00.000Z",
       "games": []
     }
   ]
